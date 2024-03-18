@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url(https://fonts.googleapis.com/css?family=League+Spartan:100,200,300,regular,500,600,700,800,900);
+@import url(https://fonts.googleapis.com/css?family=Quicksand:300,regular,500,600,700);
+
+:root {
+  font-family: 'Quicksand', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  background-color: #F3EFE3;
+  color: #000814;
+  overflow-x: hidden;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
